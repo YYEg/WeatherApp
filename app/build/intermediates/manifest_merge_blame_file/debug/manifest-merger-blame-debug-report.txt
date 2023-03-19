@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:6:5-27:19
+14        android:allowBackup="true"
+14-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Egor\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:8:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:9:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:11:9-41
+22        android:supportsRtl="true"
+22-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.WeatherApp" >
+24-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:13:9-48
+25        <activity
+25-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:15:9-23:20
+26            android:name="com.example.weatherapp.MainActivity"
+26-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:16:13-41
+27            android:exported="true" >
+27-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:17:13-36
+28            <intent-filter>
+28-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <meta-data
+35-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:24:9-26:57
+36            android:name="preloaded_fonts"
+36-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:25:13-43
+37            android:resource="@array/preloaded_fonts" />
+37-->C:\Users\Egor\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:26:13-54
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.weatherapp.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Egor\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Egor\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Egor\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
